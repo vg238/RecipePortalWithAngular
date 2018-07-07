@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Store} from '@ngrx/store';
 import * as fromRecipe from '../store/recipe.reducers';
-import {Observable} from 'rxjs/index';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-recipe-list',
