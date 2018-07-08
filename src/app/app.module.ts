@@ -22,7 +22,7 @@ import { environment } from '../environments/environment';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'recipe-portal'}),
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
